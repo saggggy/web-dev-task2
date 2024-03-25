@@ -1,0 +1,61 @@
+
+:root{
+    --bs-blue1:#243E63;
+    --bs-light1:#edf2f7 ;
+}
+.text-blue1{
+    color: var(--bs-blue1);
+}
+.bg-light1{
+ background-color: var(--bs-light1);
+}
+
+* {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+.h{
+    font-weight: 900;
+    /* color: #243E63; */
+}
+
+.h :hover{
+    color: #6415ff;
+}
+
+.h-text h2{
+font-weight: 900;
+}
+
+/* .h-text1 h2{
+    clip-path: polygon(1% 0, 100% 0%, 99% 100%, 0% 100%);
+    background-color: #6415ff;
+    font-weight: 900;
+} */
+
+.z{
+    /* border: 1px solid black; */
+    clip-path: polygon(1% 0, 100% 0%, 99% 100%, 0% 100%);
+    background-color: #6415ff;
+    color: white;
+    font-weight: 900;
+}
+
+.btn-light.active,
+.btn-light:active {
+  color: white;
+  background-color: #4400ff !important; /* Change to your desired color */
+  border-color: #4400ff !important; /* Change to your desired color */
+}
+
+#bgimg{
+    background-image: url(./Images/Real19.jpg);
+    background-size: 100% 100%;
+    height: auto;
+    background-attachment: fixed;
+  }
